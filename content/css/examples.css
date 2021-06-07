@@ -1,0 +1,52 @@
+
+.boing-tile-bar {
+ 	background-color: #eef6fd;
+ 	/* top right bottom left */
+ 	padding: 20px 10px 10px 10px;
+ 	margin-bottom: 20px;
+}
+
+.boing-tile {
+   height: 175px;
+   text-align: center;
+   position: relative;
+}
+
+.boing-button {
+  width: 100%;
+  transition: all 0.5s;
+}
+
+.boing-button:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+
+.boing-title {
+   width: 100%;
+   position: absolute;
+   bottom: 0;
+   text-align: center;
+}
+
+.boing-info {
+   display: none;
+   text-align: center;
+}
+
+.boing-main-image {
+ 	background-color: #eef6fd;
+  	/* top right bottom left */
+  	padding: 20px 10px 20px 10px;
+   text-align: center;
+   max-height: 650px;
+}
+
+.boing {
+   display: none;
+}
+
+.boing-image {
+   width: 100%;
+   max-height: 600px;
+}
