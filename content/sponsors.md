@@ -14,12 +14,12 @@ Title: Sponsors
       </picture>
       <h2> Official Apache Sponsors </h2>
       <p> List of Apache Software Foundation
-         <a href="http://www.apache.org/foundation/thanks.html" alt="Link to Apache Software Foundation Sponsors">
+         <a href="//www.apache.org/foundation/thanks.html" alt="Link to Apache Software Foundation Sponsors">
             Sponsors </a>
       </p>
       <h2> Become a Sponsor </h2>
       <p>
-         <a href="http://www.apache.org/foundation/thanks.html"
+         <a href="//www.apache.org/foundation/thanks.html"
             alt="Link to Apache Software Foundation Sponsorship Program"> Sponsorship Form </a>
       </p>
    </div>
