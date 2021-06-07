@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+ 
+    Licensed to the Apache Software Foundation (ASF) under one or more
+    contributor license agreements.  See the NOTICE file distributed with
+    this work for additional information regarding copyright ownership.
+    The ASF licenses this file to You under the Apache License, Version 2.0
+    (the "License"); you may not use this file except in compliance with
+    the License.  You may obtain a copy of the License at
+ 
+       http://www.apache.org/licenses/LICENSE- 2.0
+ 
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <title>
+      Apache cTAKES&trade; - clinical Text Analysis Knowledge Extraction System
+   </title>
+   <link rel="icon" type="image/png" href="images/apache_logo.png"/>
+
+   <!-- Font awesome CSS -->
+   <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	
+   <!-- Bootstrap core CSS -->
+   <link href="/css/cerulean.min.css" rel="stylesheet">
+   <link href="/css/custom.css" rel="stylesheet">
+
+   <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+   <link href="/css/main.css" rel="stylesheet">
+   <link href="/css/apache.css" rel="stylesheet">
+   <link href="/css/index.css" rel="stylesheet">
+
+   <link href="/css/examples.css" rel="stylesheet">
+   <link href="/css/why_ctakes.css" rel="stylesheet">
+   <link href="/css/main.css" rel="stylesheet">	
+
+   <script src="https://code.jquery.com/jquery.js"></script>
+   <script type="text/javascript">
+          var _gaq = _gaq || []; _gaq.push(['_setAccount', 'UA-41673085-1']); _gaq.push(['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })();	
+   </script>
+   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+   <!-- Temp removing IE check because [ breaks the phython mdtext & downloads.cgi script -->
+</head>
+
+<body>
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+   <div class="navbar-inner">
+      <div class="container" id="navbar-container">
+         <!-- Brand and toggle get grouped for better mobile display -->
+         <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+               <span class="sr-only">Toggle Navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/index.html"> <img src="/images/ctakes_logo.png"/>
+            </a>
+         </div>
+
+
+         <!-- Collect the nav links, forms, and other content for toggling -->
+         <div class="collapse navbar-collapse" id="navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+               <li class="dropdown">
+                  <a href="/whycTAKES.html">Why cTAKES&trade;?</a>
+               </li>
+               <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                     Get Started <b class="caret"></b>
+                  </a>
+                  <ul class="dropdown-menu">
+                     <li><a href="/downloads.cgi">Download cTAKES&trade;</a></li>
+                     <li><a href="/examples.html">Examples</a></li>
+					 <li><a href="//healthnlp.github.io/examples/" target="_blank">Demos</a></li>
+                     <li><a href="/tutorials.html">Tutorials</a></li>
+
+                  </ul>
+               </li>
+
+               <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                     Community <b class="caret"></b>
+                  </a>
+                  <ul class="dropdown-menu">
+                     <li><a href="/community.html">Get Involved</a></li>
+                     <li><a href="/history.html">Project History</a></li>
+                     <li><a href="/usedby.html">Who's Using cTAKES&trade;</a></li>
+                     <li><a href="//people.apache.org/committers-by-project.html#ctakes">People</a></li>
+                     <li><a href="//www.apache.org/security">Security</a></li>
+                     <li><a href="//www.apache.org/licenses/">License</a></li>
+                     <li><a href="//issues.apache.org/jira/browse/ctakes">Issue Tracker</a></li>
+                  </ul>
+               </li>
+               <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Resources
+                     <b class="caret"></b>
+                  </a>
+                  <ul class="dropdown-menu">
+                     <li><a href="/faq.html">FAQ</a></li>
+                     <li><a href="/mailing.html">Mailing Lists</a></li>
+                     <li><a href="//www.apache.org/foundation/sponsorship.html">Sponsorship</a></li>
+                     <li><a href="//www.apache.org/foundation/thanks.html">Thanks</a></li>
+                  </ul>
+               </li>
+
+            </ul>
+         </div>
+         <!-- /.navbar-collapse -->
+      </div>
+      <!-- End container -->
+   </div>
+</nav>
+	
+<!--- BEGIN MAIN CONTENT -->
+    <div class="container main">
+<h2> List of Volunteers </h2>
+<p> Apache cTAKES is a community developed project. The list below is a partial list of contributors to the project,
+      for a complete list you'd have to look at all contributors to our issue tracker, mailing list and version
+      control.
+   </p>
+<h3> Project Management Committee Members (sorted alphabetically)</h3>
+<div id="people-names"></div>
+<!--<ul id="people-names">-->
+<!--<li> Andy McMurry (andymc at apache.org)</li>-->
+<!--<li> Britt Fitch (brittfitch at apache.org)</li>-->
+<!--<li> Chris Mattmann (mattmann at apache.org)</li>-->
+<!--<li> Ding Cheng (leonleeldc at apache.org)</li>-->
+<!--<li> Dmitriy Dligach (dligach at apache.org)</li>-->
+<!--<li> Grant Ingersoll (gsingers at apache.org)</li>-->
+<!--<li> Guergana Savova (gsavova at apache.org)</li>-->
+<!--<li> Hongfang Liu (liuhongfang at apache.org)</li>-->
+<!--<li> Ira Goldstein</li>-->
+<!--<li> James Masanz (james-masanz at apache.org)</li>-->
+<!--<li> Jeff Ferraro</li>-->
+<!--<li> Jiaping Zheng</li>-->
+<!--<li> Jinho Choi</li>-->
+<!--<li> Jorn Kottmann (joern at apache.org)</li>-->
+<!--<li> Karthik Sarma (ksarma at apache.org)</li>-->
+<!--<li> Kim Ebert (kebert at apache.org)</li>-->
+<!--<li> Lee Becker</li>-->
+<!--<li> Matt Coarr (mattcoarr at apache.org)</li>-->
+<!--<li> Michelle Chen (michelle at apache.org)</li>-->
+<!--<li> Pei Chen (chenpei at apache.org)</li>-->
+<!--<li> Scott Halgrim</li>-->
+<!--<li> Sean Finan (seanfinan at apache.org)</li>-->
+<!--<li> Sean Patrick (spmurphy50 at apache.org)</li>-->
+<!--<li> Siddhartha Jonnalagadda (siddhartha at apache.org)</li>-->
+<!--<li> Stephen Wu (swu at apache.org)</li>-->
+<!--<li> Steven Bethard (stevenbethard at apache.org)</li>-->
+<!--<li> Sunghwan Sohn (ssohn at apache.org)</li>-->
+<!--<li> Tim Miller (tmill at apache.org)</li>-->
+<!--<li> Troy Bleeker (bleeker at apache.org)</li>-->
+<!--<li> Vinod Kaggal (vkaggal at apache.org)</li>-->
+<!--</ul>-->
+</div>
+<!-- show enlarged image -->
+<script type="text/javascript">
+$(document).ready( function() {
+   var exturl = "https://projects-new.apache.org/json/foundation/committers.json";
+   $.getJSON( exturl, function( data ) {
+         var persons = $("<ul>");
+         $.each( data.ctakes, function( index, person ) {
+            persons.append( "<li>" + person + "</li>" );
+         });
+         persons.append( "</ul>" );
+         $( "#people-names" ).append( persons );
+         $( "#people-names" ).append( "<p>throwback " + data.ctakes[0] + "</p>" );
+      }).error( function() {
+         $( "#people-names" ).append( "<p>error getting json</p>" );
+      });
+});
+
+$(document).ready( function() {
+      var data = { "tools" : ["wrench","pliers"], "gubers" : ["bob","joe","sue"] };
+         var persons = $("<ul>");
+         $.each( data.tools, function( index, person ) {
+            persons.append( "<li>" + person + "</li>" );
+         });
+         persons.append( "</ul>" );
+         $( "#people-names" ).append( persons );
+});
+
+$(document).ready( function() {
+      var data = ["bob","joe","sue"];
+         var persons = $("<ul>");
+         $.each( data, function( index, person ) {
+            persons.append( "<li>" + person + "</li>" );
+         });
+         persons.append( "</ul>" );
+         $( "#people-names" ).append( persons );
+});
+
+</script>
+
+<!--- END MAIN CONTENT --> 
+
+<footer class="small">
+   <hr>
+   Apache cTAKES, cTAKES, Apache, and the cTAKES logo are trademarks of
+   <a href="//www.apache.org">The Apache Software Foundation</a>.
+   <a href="//www.apache.org"><img class="little-feather" src="/images/feather_20v.png"></a>
+</footer>
+<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+
+</body>
+</html>

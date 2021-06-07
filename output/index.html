@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+ 
+    Licensed to the Apache Software Foundation (ASF) under one or more
+    contributor license agreements.  See the NOTICE file distributed with
+    this work for additional information regarding copyright ownership.
+    The ASF licenses this file to You under the Apache License, Version 2.0
+    (the "License"); you may not use this file except in compliance with
+    the License.  You may obtain a copy of the License at
+ 
+       http://www.apache.org/licenses/LICENSE- 2.0
+ 
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <title>
+      Apache cTAKES&trade; - clinical Text Analysis Knowledge Extraction System
+   </title>
+   <link rel="icon" type="image/png" href="images/apache_logo.png"/>
+
+   <!-- Font awesome CSS -->
+   <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	
+   <!-- Bootstrap core CSS -->
+   <link href="/css/cerulean.min.css" rel="stylesheet">
+   <link href="/css/custom.css" rel="stylesheet">
+
+   <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+   <link href="/css/main.css" rel="stylesheet">
+   <link href="/css/apache.css" rel="stylesheet">
+   <link href="/css/index.css" rel="stylesheet">
+
+   <link href="/css/examples.css" rel="stylesheet">
+   <link href="/css/why_ctakes.css" rel="stylesheet">
+   <link href="/css/main.css" rel="stylesheet">	
+
+   <script src="https://code.jquery.com/jquery.js"></script>
+   <script type="text/javascript">
+          var _gaq = _gaq || []; _gaq.push(['_setAccount', 'UA-41673085-1']); _gaq.push(['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })();	
+   </script>
+   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+   <!-- Temp removing IE check because [ breaks the phython mdtext & downloads.cgi script -->
+</head>
+
+<body>
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+   <div class="navbar-inner">
+      <div class="container" id="navbar-container">
+         <!-- Brand and toggle get grouped for better mobile display -->
+         <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+               <span class="sr-only">Toggle Navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/index.html"> <img src="/images/ctakes_logo.png"/>
+            </a>
+         </div>
+
+
+         <!-- Collect the nav links, forms, and other content for toggling -->
+         <div class="collapse navbar-collapse" id="navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+               <li class="dropdown">
+                  <a href="/whycTAKES.html">Why cTAKES&trade;?</a>
+               </li>
+               <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                     Get Started <b class="caret"></b>
+                  </a>
+                  <ul class="dropdown-menu">
+                     <li><a href="/downloads.cgi">Download cTAKES&trade;</a></li>
+                     <li><a href="/examples.html">Examples</a></li>
+					 <li><a href="//healthnlp.github.io/examples/" target="_blank">Demos</a></li>
+                     <li><a href="/tutorials.html">Tutorials</a></li>
+
+                  </ul>
+               </li>
+
+               <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                     Community <b class="caret"></b>
+                  </a>
+                  <ul class="dropdown-menu">
+                     <li><a href="/community.html">Get Involved</a></li>
+                     <li><a href="/history.html">Project History</a></li>
+                     <li><a href="/usedby.html">Who's Using cTAKES&trade;</a></li>
+                     <li><a href="//people.apache.org/committers-by-project.html#ctakes">People</a></li>
+                     <li><a href="//www.apache.org/security">Security</a></li>
+                     <li><a href="//www.apache.org/licenses/">License</a></li>
+                     <li><a href="//issues.apache.org/jira/browse/ctakes">Issue Tracker</a></li>
+                  </ul>
+               </li>
+               <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Resources
+                     <b class="caret"></b>
+                  </a>
+                  <ul class="dropdown-menu">
+                     <li><a href="/faq.html">FAQ</a></li>
+                     <li><a href="/mailing.html">Mailing Lists</a></li>
+                     <li><a href="//www.apache.org/foundation/sponsorship.html">Sponsorship</a></li>
+                     <li><a href="//www.apache.org/foundation/thanks.html">Thanks</a></li>
+                  </ul>
+               </li>
+
+            </ul>
+         </div>
+         <!-- /.navbar-collapse -->
+      </div>
+      <!-- End container -->
+   </div>
+</nav>
+	
+<!--- BEGIN MAIN CONTENT -->
+    <div class="container">
+<div class="row">
+<div class="col-md-11 jumbotron">
+<h1>Apache cTAKES&trade;</h1>
+<p>Apache cTAKES&trade; is a natural language processing system for extraction of information
+         from electronic medical record clinical free-text.</p>
+<a class="btn btn-primary btn-lg" href="downloads.cgi">
+<span aria-hidden="true" class="fa fa-download"> </span> Download
+      </a>
+<a class="btn btn-info btn-lg" href="examples.html">
+<span aria-hidden="true" class="fa fa-book"> </span> Examples
+      </a>
+</div>
+<div class="col-md-1">
+<a href="http://apache.org/foundation/contributing.html"><img alt="Support Apache logo" class="support-apache" src="http://apache.org/images/SupportApache-small.png"/></a>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row">
+<h3>* <b>Please See new UMLS License information at the <a href="https://cwiki.apache.org/confluence/display/CTAKES/cTAKES+4.0.0.1">cTAKES Wiki</a></b></h3>
+</div>
+</div>
+<!-- end row with center panel and right navigator -->
+<div class="container main">
+<!-- ROW-->
+<div class="row">
+<div class="col-sm-6 col-md-4 description-container">
+<h2>Powerful</h2>
+<span class="fa-stack fa-3x">
+<span class="fa fa-bolt fa-stack-1x mid-icon"></span>
+<span class="fa fa-circle-thin fa-stack-2x fa-inverse"></span>
+</span>
+<p>Discover codable entities, temporal events, properties and relations.</p>
+</div>
+<div class="col-sm-6 col-md-4 description-container">
+<h2>Fast</h2>
+<span class="fa-stack fa-3x">
+<span class="fa fa-clock-o fa-stack-1x mid-icon"></span>
+<span class="fa fa-circle-thin fa-stack-2x"></span>
+</span>
+<p>Process database or file-stored batches at 50,000 clinical notes per hour.</p>
+</div>
+<div class="col-sm-6 col-md-4 description-container">
+<h2>Scalable</h2>
+<span class="fa-stack fa-3x">
+<span class="fa fa-arrow-up fa-stack-1x mid-icon"></span>
+<span class="fa fa-circle-thin fa-stack-2x"></span>
+</span>
+<p>Scale up to run on clusters, queue systems and cloud computing services.</p>
+</div>
+<div class="col-sm-6 col-md-4 description-container">
+<h2>Modular</h2>
+<span class="fa-stack fa-3x">
+<span class="fa fa-gear fa-stack-1x mid-icon"></span>
+<span class="fa fa-circle-thin fa-stack-2x"></span>
+</span>
+<p>Fully customize pipelines to use any Apache UIMA compatible component. </p>
+</div>
+<div class="col-sm-6 col-md-4 description-container">
+<h2>Portable</h2>
+<span class="fa-stack fa-3x">
+<span class="fa fa-check fa-stack-1x mid-icon"></span>
+<span class="fa fa-circle-thin fa-stack-2x"></span>
+</span>
+<p>Run in Java on any major platform.</p>
+</div>
+<div class="col-sm-6 col-md-4 description-container">
+<h2>Free</h2>
+<span class="fa-stack fa-3x">
+<span class="fa fa-dollar fa-stack-1x mid-icon"></span>
+<span class="fa fa-ban fa-stack-2x"></span>
+</span>
+<p>Download the latest 100% free and open source release. </p>
+</div>
+</div>
+<!-- end row -->
+</div>
+<!-- end main div -->
+
+<!--- END MAIN CONTENT --> 
+
+<footer class="small">
+   <hr>
+   Apache cTAKES, cTAKES, Apache, and the cTAKES logo are trademarks of
+   <a href="//www.apache.org">The Apache Software Foundation</a>.
+   <a href="//www.apache.org"><img class="little-feather" src="/images/feather_20v.png"></a>
+</footer>
+<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+
+</body>
+</html>

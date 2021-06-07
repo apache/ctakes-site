@@ -1,0 +1,241 @@
+
+.markuper {
+    /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 20s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 0s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-play-state: running;
+    /* Standard syntax */
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+#neg-uncertain {
+    -webkit-animation-name: fadein1;
+    animation-name: fadein1;
+}
+
+#coreference {
+    -webkit-animation-name: fadein2;
+    animation-name: fadein2;
+}
+
+#locationof {
+    -webkit-animation-name: fadein3;
+    animation-name: fadein3;
+}
+
+#tlink {
+    -webkit-animation-name: fadein4;
+    animation-name: fadein4;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes fadein1 {
+    0%   {
+        opacity: 0.0;
+         /* For IE8 and earlier */
+        filter: alpha(opacity=0); }
+    5%   {
+        opacity: 1.0;
+        filter: alpha(opacity=100); }
+    20%   {
+        opacity: 1.0;
+        filter: alpha(opacity=100); }
+    25%  {
+         opacity: 0.0;
+         filter: alpha(opacity=0); }
+    100% {
+           opacity: 0.0;
+           filter: alpha(opacity=0); }
+}
+
+/* Standard syntax */
+keyframes fadein1 {
+    0%   {
+        opacity: 0.0;
+        filter: alpha(opacity=0); }
+    5%   {
+        opacity: 1.0;
+        filter: alpha(opacity=100); }
+    20%   {
+        opacity: 1.0;
+        filter: alpha(opacity=100); }
+    25%  {
+         opacity: 0.0;
+         filter: alpha(opacity=0); }
+    100% {
+           opacity: 0.0;
+           filter: alpha(opacity=0); }
+}
+
+
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes fadein2 {
+    0%   {
+           opacity: 0.0;
+           filter: alpha(opacity=0); }
+    25%  {
+         opacity: 0.0;
+         filter: alpha(opacity=0); }
+    30%  {
+          opacity: 1.0;
+          filter: alpha(opacity=100); }
+    45%  {
+          opacity: 1.0;
+          filter: alpha(opacity=100); }
+    50% {
+           opacity: 0.0;
+           filter: alpha(opacity=0); }
+    100% {
+           opacity: 0.0;
+           filter: alpha(opacity=0); }
+}
+
+/* Standard syntax */
+@keyframes fadein2 {
+    0%   {
+           opacity: 0.0;
+           filter: alpha(opacity=0); }
+    25%  {
+         opacity: 0.0;
+         filter: alpha(opacity=0); }
+    30%  {
+          opacity: 1.0;
+          filter: alpha(opacity=100); }
+    45%  {
+          opacity: 1.0;
+          filter: alpha(opacity=100); }
+    50% {
+           opacity: 0.0;
+           filter: alpha(opacity=0); }
+    100% {
+           opacity: 0.0;
+           filter: alpha(opacity=0); }
+}
+
+
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes fadein3 {
+    0%   {
+           opacity: 0.0;
+           filter: alpha(opacity=0); }
+    50%  {
+         opacity: 0.0;
+         filter: alpha(opacity=0); }
+    55%  {
+          opacity: 1.0;
+          filter: alpha(opacity=100); }
+    70%  {
+          opacity: 1.0;
+          filter: alpha(opacity=100); }
+    75% {
+           opacity: 0.0;
+           filter: alpha(opacity=0); }
+    100% {
+           opacity: 0.0;
+           filter: alpha(opacity=0); }
+}
+
+/* Standard syntax */
+keyframes fadein3 {
+    0%   {
+           opacity: 0.0;
+           filter: alpha(opacity=0); }
+    50%  {
+         opacity: 0.0;
+         filter: alpha(opacity=0); }
+    55%  {
+          opacity: 1.0;
+          filter: alpha(opacity=100); }
+    70%  {
+          opacity: 1.0;
+          filter: alpha(opacity=100); }
+    75% {
+           opacity: 0.0;
+           filter: alpha(opacity=0); }
+    100% {
+           opacity: 0.0;
+           filter: alpha(opacity=0); }
+}
+
+
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes fadein4 {
+    0%   {
+           opacity: 0.0;
+           filter: alpha(opacity=0); }
+    75%  {
+         opacity: 0.0;
+         filter: alpha(opacity=0); }
+    80%  {
+          opacity: 1.0;
+          filter: alpha(opacity=100); }
+    95%  {
+          opacity: 1.0;
+          filter: alpha(opacity=100); }
+    100% {
+           opacity: 0.0;
+           filter: alpha(opacity=0); }
+}
+
+/* Standard syntax */
+@keyframes fadein4 {
+    0%   {
+           opacity: 0.0;
+           filter: alpha(opacity=0); }
+    75%  {
+         opacity: 0.0;
+         filter: alpha(opacity=0); }
+    80%  {
+          opacity: 1.0;
+          filter: alpha(opacity=100); }
+    95%  {
+          opacity: 1.0;
+          filter: alpha(opacity=100); }
+    100% {
+           opacity: 0.0;
+           filter: alpha(opacity=0); }
+}
+
+
+
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes fadein {
+    0%   {
+        opacity: 0.0;
+        filter: alpha(opacity=0); }
+    25%  {
+         opacity: 1.0;
+         filter: alpha(opacity=100); }
+    75%  {
+          opacity: 1.0;
+          filter: alpha(opacity=100); }
+    100% {
+           opacity: 0.0;
+           filter: alpha(opacity=0); }
+}
+
+/* Standard syntax */
+@keyframes fadein {
+    0%   {
+           opacity: 0.0;
+           filter: alpha(opacity=0); }
+    25%  {
+         opacity: 1.0;
+         filter: alpha(opacity=100); }
+    75%  {
+          opacity: 1.0;
+          filter: alpha(opacity=100); }
+    100% {
+           opacity: 0.0;
+           filter: alpha(opacity=0); }
+}

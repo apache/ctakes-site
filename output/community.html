@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+ 
+    Licensed to the Apache Software Foundation (ASF) under one or more
+    contributor license agreements.  See the NOTICE file distributed with
+    this work for additional information regarding copyright ownership.
+    The ASF licenses this file to You under the Apache License, Version 2.0
+    (the "License"); you may not use this file except in compliance with
+    the License.  You may obtain a copy of the License at
+ 
+       http://www.apache.org/licenses/LICENSE- 2.0
+ 
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <title>
+      Apache cTAKES&trade; - clinical Text Analysis Knowledge Extraction System
+   </title>
+   <link rel="icon" type="image/png" href="images/apache_logo.png"/>
+
+   <!-- Font awesome CSS -->
+   <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	
+   <!-- Bootstrap core CSS -->
+   <link href="/css/cerulean.min.css" rel="stylesheet">
+   <link href="/css/custom.css" rel="stylesheet">
+
+   <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+   <link href="/css/main.css" rel="stylesheet">
+   <link href="/css/apache.css" rel="stylesheet">
+   <link href="/css/index.css" rel="stylesheet">
+
+   <link href="/css/examples.css" rel="stylesheet">
+   <link href="/css/why_ctakes.css" rel="stylesheet">
+   <link href="/css/main.css" rel="stylesheet">	
+
+   <script src="https://code.jquery.com/jquery.js"></script>
+   <script type="text/javascript">
+          var _gaq = _gaq || []; _gaq.push(['_setAccount', 'UA-41673085-1']); _gaq.push(['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })();	
+   </script>
+   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+   <!-- Temp removing IE check because [ breaks the phython mdtext & downloads.cgi script -->
+</head>
+
+<body>
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+   <div class="navbar-inner">
+      <div class="container" id="navbar-container">
+         <!-- Brand and toggle get grouped for better mobile display -->
+         <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+               <span class="sr-only">Toggle Navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/index.html"> <img src="/images/ctakes_logo.png"/>
+            </a>
+         </div>
+
+
+         <!-- Collect the nav links, forms, and other content for toggling -->
+         <div class="collapse navbar-collapse" id="navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+               <li class="dropdown">
+                  <a href="/whycTAKES.html">Why cTAKES&trade;?</a>
+               </li>
+               <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                     Get Started <b class="caret"></b>
+                  </a>
+                  <ul class="dropdown-menu">
+                     <li><a href="/downloads.cgi">Download cTAKES&trade;</a></li>
+                     <li><a href="/examples.html">Examples</a></li>
+					 <li><a href="//healthnlp.github.io/examples/" target="_blank">Demos</a></li>
+                     <li><a href="/tutorials.html">Tutorials</a></li>
+
+                  </ul>
+               </li>
+
+               <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                     Community <b class="caret"></b>
+                  </a>
+                  <ul class="dropdown-menu">
+                     <li><a href="/community.html">Get Involved</a></li>
+                     <li><a href="/history.html">Project History</a></li>
+                     <li><a href="/usedby.html">Who's Using cTAKES&trade;</a></li>
+                     <li><a href="//people.apache.org/committers-by-project.html#ctakes">People</a></li>
+                     <li><a href="//www.apache.org/security">Security</a></li>
+                     <li><a href="//www.apache.org/licenses/">License</a></li>
+                     <li><a href="//issues.apache.org/jira/browse/ctakes">Issue Tracker</a></li>
+                  </ul>
+               </li>
+               <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Resources
+                     <b class="caret"></b>
+                  </a>
+                  <ul class="dropdown-menu">
+                     <li><a href="/faq.html">FAQ</a></li>
+                     <li><a href="/mailing.html">Mailing Lists</a></li>
+                     <li><a href="//www.apache.org/foundation/sponsorship.html">Sponsorship</a></li>
+                     <li><a href="//www.apache.org/foundation/thanks.html">Thanks</a></li>
+                  </ul>
+               </li>
+
+            </ul>
+         </div>
+         <!-- /.navbar-collapse -->
+      </div>
+      <!-- End container -->
+   </div>
+</nav>
+	
+<!--- BEGIN MAIN CONTENT -->
+    <div class="container main">
+<div class="row">
+<h1> Ways to Get Involved </h1>
+<p> You don't need to be a software developer to contribute to Apache cTAKES. To be successful this project
+         requires a range of different skills, levels of involvement and degrees of technical expertise. So, if you want
+         to get involved in cTAKES, there is almost certainly a role for you.
+      </p>
+<p> We are looking for people to:
+      <ul>
+<li>Provide feedback</li>
+<li>Ask and answer questions on mailing lists</li>
+<li>Write or update documentation</li>
+<li>Help new users</li>
+<li>Recommend the project to others</li>
+<li>Test the code and report bugs</li>
+<li>Fix bugs</li>
+<li>Give us feedback on required features</li>
+<li>Write and update the software</li>
+<li>Create artwork</li>
+<li>Anything you can see that needs doing</li>
+</ul>
+</p>
+<p>
+         All of these contributions help to keep a project active and strengthen the community. The project team and the
+         broader community will therefore welcome and encourage participation, and attempt to make it as easy as
+         possible for people to get involved. Apache defines it this way.
+      </p>
+<h2> Steps of Involvement </h2>
+<p> Your first engagement with the project would probably be to subscribe to our mailing lists
+         and to try out cTAKES as a user. If this fits the bill or you see something you'd like to improve then possibly
+         modify code or make other enhancements. After working with the community for a little bit you will be
+         recognized as someone who should have write access. Being a committee member may be in your future. To begin
+         down this path see the Getting Started pages.
+      </p>
+<h2> Decision Making </h2>
+<p> The most important thing about engaging with any Apache project is that everyone is equal. All people with an
+         opinion are entitled to express that opinion and, where appropriate, have it considered by the community.
+      </p>
+<p> To some the idea of having to establish consensus in a large and distributed team sounds inefficient and
+         frustrating. Don't despair though, The Apache Way has a set of simple processes to ensure things proceed at a
+         good pace.
+      </p>
+</div>
+<!-- end row -->
+</div>
+<!-- end main div -->
+
+<!--- END MAIN CONTENT --> 
+
+<footer class="small">
+   <hr>
+   Apache cTAKES, cTAKES, Apache, and the cTAKES logo are trademarks of
+   <a href="//www.apache.org">The Apache Software Foundation</a>.
+   <a href="//www.apache.org"><img class="little-feather" src="/images/feather_20v.png"></a>
+</footer>
+<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+
+</body>
+</html>
