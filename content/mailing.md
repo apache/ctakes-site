@@ -76,22 +76,22 @@ Title: Mailing LIsts
             </tr>
             <tr>
                <td>Users</td>
-               <td><a href="//mail-archives.apache.org/mod_mbox/ctakes-user/">Archive</a>
+               <td><a href="http://mail-archives.apache.org/mod_mbox/ctakes-user/">Archive</a>
                </td>
             </tr>
             <tr>
                <td>Developers</td>
-               <td><a href="//mail-archives.apache.org/mod_mbox/ctakes-dev/">Archive</a>
+               <td><a href="http://mail-archives.apache.org/mod_mbox/ctakes-dev/">Archive</a>
                </td>
             </tr>
             <tr>
                <td>Commit Notifications</td>
-               <td><a href="//mail-archives.apache.org/mod_mbox/ctakes-notifications/">Archive</a>
+               <td><a href="http://mail-archives.apache.org/mod_mbox/ctakes-notifications/">Archive</a>
                </td>
             </tr>
             <tr>
                <td>Commits Mailing List</td>
-               <td><a href="//mail-archives.apache.org/mod_mbox/ctakes-commits/">Archive</a>
+               <td><a href="http://mail-archives.apache.org/mod_mbox/ctakes-commits/">Archive</a>
                </td>
             </tr>
          </table>

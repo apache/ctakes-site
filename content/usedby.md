@@ -19,7 +19,7 @@ Title: Used By
    </div>
    <div class="row">
       <h2>Companies</h2>
-      <p><a href="//www.wiredinformatics.com">Wired Informatics</a></p>
+      <p><a href="http://www.wiredinformatics.com">Wired Informatics</a></p>
    </div>
    <div class="row">
       <h2>Publications</h2>
@@ -42,10 +42,10 @@ Title: Used By
          <p> Sohn, Sunghwan; Murphy, Sean; Masanz, James; Kocher, Jean-Pierre; Savova, Guergana. 2010. Classification of medication status change in clinical narratives. AMIA Fall symposium. </p>
          <p> Savova, Guergana; Fan, Jin; Ye, Zi; Murphy, Sean; Zheng, Jiaping; Chute, Christopher and Kullo, Iftikhar. 2010. Discovering peripheral arterial disease cases from radiology notes using natural language processing. AMIA Fall symposium. </p>
          <p> Savova, Guergana; Masanz, James; Ogren, Philip; Zheng, Jiaping; Sohn, Sunghwan; Kipper-Schuler, Karin and Chute, Christopher. 2010. Mayo Clinical Text Analysis and Knowledge Extraction System (cTAKES): architecture, component evaluation and applications. JAMIA 2010;17:507-513 doi:10.1136/jamia.2009.001560 </p>
-         <p> Cheng, Lionel; Zheng, Jiaping; Savova, Guergana and Erickson, Bradley. 2010. Discerning tumor status from unstructured MRI reports – completeness of information in existing reports and utility of natural language processing. Journal of Digital Imaging of the Society of Imaging Informatics in Medicine, ISSN: 0897-1889: 23(2), 119-133. PMID: 19484309. (Best paper 2010 award of the Journal of Digital Imaging). https://www.ncbi.nlm.nih.gov/pubmed/19484309 </p>
+         <p> Cheng, Lionel; Zheng, Jiaping; Savova, Guergana and Erickson, Bradley. 2010. Discerning tumor status from unstructured MRI reports – completeness of information in existing reports and utility of natural language processing. Journal of Digital Imaging of the Society of Imaging Informatics in Medicine, ISSN: 0897-1889: 23(2), 119-133. PMID: 19484309. (Best paper 2010 award of the Journal of Digital Imaging). http://www.ncbi.nlm.nih.gov/pubmed/19484309 </p>
          <p> Sohn, Sunghwan and Savova, Guergana. 2009. Mayo Clinic smoking status classification system. Proc. AMIA, Nov. 2009. </p>
          <p> Garla, V. et al. The Yale cTAKES extensions for document classification: architecture and application. Journal of the American Medical Informatics Association (2011). doi:10.1136/amiajnl-2011-000093 </p>
-         <p> Garla, V and Brandt, C. Ontology-Guided Feature Engineering for Clinical Text Classification (2012) https://dx.doi.org/10.1016/j.jbi.2012.04.010. </p>
+         <p> Garla, V and Brandt, C. Ontology-Guided Feature Engineering for Clinical Text Classification (2012) http://dx.doi.org/10.1016/j.jbi.2012.04.010. </p>
    </div>
    <div class="row">
       <div class="col-md-5 col-sm-5 col-padded-top col-center">

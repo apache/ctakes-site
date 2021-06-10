@@ -6,7 +6,7 @@ Title: Home
       <h1>Apache cTAKES&trade;</h1>
       <p>Apache cTAKES&trade; is a natural language processing system for extraction of information
          from electronic medical record clinical free-text.</p>
-      <a href="/downloads.html" class="btn btn-primary btn-lg">
+      <a href="downloads.cgi" class="btn btn-primary btn-lg">
          <span class="fa fa-download" aria-hidden="true"> </span> Download
       </a>
       <a href="examples.html" class="btn btn-info btn-lg">
@@ -14,8 +14,8 @@ Title: Home
       </a>
   </div>
   <div class="col-md-1 ">
-	  <a href="//www.apache.org/foundation/contributing.html"><img class="support-apache" alt="Support Apache logo"
-      src="//www.apache.org/images/SupportApache-small.png"></a>
+	  <a href="http://apache.org/foundation/contributing.html"><img class="support-apache" alt="Support Apache logo"
+      src="http://apache.org/images/SupportApache-small.png"></a>
   </div>
  </div>
 </div>
