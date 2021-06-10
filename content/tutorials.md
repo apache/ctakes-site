@@ -18,10 +18,10 @@ Title: Tutorials
          </p>
       </div>
       <div class="col-md-6 videoWrapper">
-         <iframe src="http://player.vimeo.com/video/24829353?title=0&amp;byline=0&amp;portrait=0" width="500"
+         <iframe src="//player.vimeo.com/video/24829353?title=0&amp;byline=0&amp;portrait=0" width="500"
                  height="250" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-         <p><a href="http://vimeo.com/24829353">Natural Language Processing and Information Extraction for
-            Biomedicine</a> from <a href="http://vimeo.com/cbmi">CBMI</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+         <p><a href="//vimeo.com/24829353">Natural Language Processing and Information Extraction for
+            Biomedicine</a> from <a href="//vimeo.com/cbmi">CBMI</a> on <a href="//vimeo.com">Vimeo</a>.</p>
       </div>
    </div>
    <hr>
@@ -34,7 +34,7 @@ Title: Tutorials
          </p>
       </div>
       <div class="col-md-6 videoWrapper">
-         <iframe width="420" height="315" src="https://www.youtube.com/embed/TpGZIKEDYMw" frameborder="0"
+         <iframe width="420" height="315" src="//www.youtube.com/embed/TpGZIKEDYMw" frameborder="0"
                  allowfullscreen></iframe>
       </div>
    </div>

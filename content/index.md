@@ -14,15 +14,15 @@ Title: Home
       </a>
   </div>
   <div class="col-md-1 ">
-	  <a href="http://apache.org/foundation/contributing.html"><img class="support-apache" alt="Support Apache logo"
-      src="http://apache.org/images/SupportApache-small.png"></a>
+	  <a href="//www.apache.org/foundation/contributing.html"><img class="support-apache" alt="Support Apache logo"
+      src="//www.apache.org/images/SupportApache-small.png"></a>
   </div>
  </div>
 </div>
 
 <div class="container">
    <div class="row">
-      <h3>* <B>Please See new UMLS License information at the <a href="https://cwiki.apache.org/confluence/display/CTAKES/cTAKES+4.0.0.1">cTAKES Wiki</a></B></h3>
+      <h3>* <B>Please See new UMLS License information at the <a href="//cwiki.apache.org/confluence/display/CTAKES/cTAKES+4.0.0.1">cTAKES Wiki</a></B></h3>
    </div>
 </div>
 

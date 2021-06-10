@@ -93,27 +93,27 @@ Title: Examples
    <div class="row boing-main-image">
       <div class="col-xs-12">
          <div id="boing-cvd" class="boing">
-            <a href="https://uima.apache.org/downloads/releaseDocs/2.2.2-incubating/docs/html/tools/tools.html#cvd.mainDisplayArea">
+            <a href="//uima.apache.org/downloads/releaseDocs/2.2.2-incubating/docs/html/tools/tools.html#cvd.mainDisplayArea">
                <img class="boing-image" src="images/CvdMain1.jpg">
             </a>
          </div>
          <div id="boing-cpe" class="boing">
-            <a href="http://uima.apache.org/downloads/releaseDocs/2.3.0-incubating/docs/html/tutorials_and_users_guides/tutorials_and_users_guides.html#ugr.tug.cpe.configurator_and_viewer">
+            <a href="//uima.apache.org/downloads/releaseDocs/2.3.0-incubating/docs/html/tutorials_and_users_guides/tutorials_and_users_guides.html#ugr.tug.cpe.configurator_and_viewer">
                <img class="boing-image" src="images/CPEimage006.jpg">
             </a>
          </div>
          <div id="boing-dictgui" class="boing">
-            <a href="https://cwiki.apache.org/confluence/display/CTAKES/Dictionary+Creator+GUI">
+            <a href="//cwiki.apache.org/confluence/display/CTAKES/Dictionary+Creator+GUI">
                <img class="boing-image" src="images/DictionaryCreator2.png">
             </a>
          </div>
          <div id="boing-piperfab" class="boing">
-            <a href="https://cwiki.apache.org/confluence/display/CTAKES/Simple+Pipeline+Fabricator+GUI">
+            <a href="//cwiki.apache.org/confluence/display/CTAKES/Simple+Pipeline+Fabricator+GUI">
                <img class="boing-image" src="images/PiperFabber.png">
             </a>
          </div>
          <div id="boing-webui" class="boing">
-            <a href="https://community.i2b2.org/wiki/display/NLPCTAKES/Home">
+            <a href="//community.i2b2.org/wiki/display/NLPCTAKES/Home">
                <img class="boing-image" src="images/ctakesguiJoin.jpg">
             </a>
          </div>

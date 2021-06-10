@@ -19,7 +19,7 @@ Title: Used By
    </div>
    <div class="row">
       <h2>Companies</h2>
-      <p><a href="http://www.wiredinformatics.com">Wired Informatics</a></p>
+      <p><a href="//www.wiredinformatics.com">Wired Informatics</a></p>
    </div>
    <div class="row">
       <h2>Publications</h2>
