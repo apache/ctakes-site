@@ -63,9 +63,9 @@ Title: Download
                Please refer to the
                <a href="https://cwiki.apache.org/confluence/display/CTAKES/cTAKES+4.0+User+Install+Guide">
                   User Install Guide</a> for assistance.</p>
-            <a href="//www.apache.org/dyn/closer.lua/ctakes/ctakes-4.0.0.1/apache-ctakes-4.0.0.1-bin.zip"
+            <a href="//downloads.apache.org/ctakes/ctakes-4.0.0.1/apache-ctakes-4.0.0.1-bin.zip"
                class="btn btn-download btn-primary btn-lg">Windows</a>
-            <a href="//www.apache.org/dyn/closer.lua/ctakes/ctakes-4.0.0.1/apache-ctakes-4.0.0.1-bin.tar.gz"
+            <a href="//downloads.apache.org/ctakes/ctakes-4.0.0.1/apache-ctakes-4.0.0.1-bin.tar.gz"
                class="btn btn-download btn-primary btn-lg">Mac/Linux</a>
          </div>
       </div>
@@ -78,9 +78,9 @@ Title: Download
                Please refer to the
                <a href="https://cwiki.apache.org/confluence/display/CTAKES/cTAKES+4.0+Developer+Install+Guide">
                   Developer Install Guide</a> for assistance.</p>
-            <a href="//www.apache.org/dyn/closer.lua/ctakes/ctakes-4.0.0.1/apache-ctakes-4.0.0.1-src.zip"
+            <a href="//downloads.apache.org/ctakes/ctakes-4.0.0.1/apache-ctakes-4.0.0.1-src.zip"
                class="btn btn-download btn-primary btn-lg">Windows</a>
-            <a href="//www.apache.org/dyn/closer.lua/ctakes/ctakes-4.0.0.1/apache-ctakes-4.0.0.1-src.tar.gz"
+            <a href="//downloads.apache.org/ctakes/ctakes-4.0.0.1/apache-ctakes-4.0.0.1-src.tar.gz"
                class="btn btn-download btn-primary btn-lg">Mac/Linux</a>
          </div>
       </div>
