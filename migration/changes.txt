@@ -1,0 +1,142 @@
+==== ./content/examples.md
+96c96
+<             <a href="https://uima.apache.org/downloads/releaseDocs/2.2.2-incubating/docs/html/tools/tools.html#cvd.mainDisplayArea">
+---
+>             <a href="//uima.apache.org/downloads/releaseDocs/2.2.2-incubating/docs/html/tools/tools.html#cvd.mainDisplayArea">
+101c101
+<             <a href="http://uima.apache.org/downloads/releaseDocs/2.3.0-incubating/docs/html/tutorials_and_users_guides/tutorials_and_users_guides.html#ugr.tug.cpe.configurator_and_viewer">
+---
+>             <a href="//uima.apache.org/downloads/releaseDocs/2.3.0-incubating/docs/html/tutorials_and_users_guides/tutorials_and_users_guides.html#ugr.tug.cpe.configurator_and_viewer">
+106c106
+<             <a href="https://cwiki.apache.org/confluence/display/CTAKES/Dictionary+Creator+GUI">
+---
+>             <a href="//cwiki.apache.org/confluence/display/CTAKES/Dictionary+Creator+GUI">
+111c111
+<             <a href="https://cwiki.apache.org/confluence/display/CTAKES/Simple+Pipeline+Fabricator+GUI">
+---
+>             <a href="//cwiki.apache.org/confluence/display/CTAKES/Simple+Pipeline+Fabricator+GUI">
+116c116
+<             <a href="https://community.i2b2.org/wiki/display/NLPCTAKES/Home">
+---
+>             <a href="//community.i2b2.org/wiki/display/NLPCTAKES/Home">
+==== ./content/whycTAKES.md
+==== ./content/community.md
+==== ./content/people.md
+==== ./content/history.md
+==== ./content/faq.md
+==== ./content/tutorials.md
+21c21
+<          <iframe src="http://player.vimeo.com/video/24829353?title=0&amp;byline=0&amp;portrait=0" width="500"
+---
+>          <iframe src="//player.vimeo.com/video/24829353?title=0&amp;byline=0&amp;portrait=0" width="500"
+23,24c23,24
+<          <p><a href="http://vimeo.com/24829353">Natural Language Processing and Information Extraction for
+<             Biomedicine</a> from <a href="http://vimeo.com/cbmi">CBMI</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+---
+>          <p><a href="//vimeo.com/24829353">Natural Language Processing and Information Extraction for
+>             Biomedicine</a> from <a href="//vimeo.com/cbmi">CBMI</a> on <a href="//vimeo.com">Vimeo</a>.</p>
+37c37
+<          <iframe width="420" height="315" src="https://www.youtube.com/embed/TpGZIKEDYMw" frameborder="0"
+---
+>          <iframe width="420" height="315" src="//www.youtube.com/embed/TpGZIKEDYMw" frameborder="0"
+==== ./content/mailing.md
+79c79
+<                <td><a href="http://mail-archives.apache.org/mod_mbox/ctakes-user/">Archive</a>
+---
+>                <td><a href="//mail-archives.apache.org/mod_mbox/ctakes-user/">Archive</a>
+84c84
+<                <td><a href="http://mail-archives.apache.org/mod_mbox/ctakes-dev/">Archive</a>
+---
+>                <td><a href="//mail-archives.apache.org/mod_mbox/ctakes-dev/">Archive</a>
+89c89
+<                <td><a href="http://mail-archives.apache.org/mod_mbox/ctakes-notifications/">Archive</a>
+---
+>                <td><a href="//mail-archives.apache.org/mod_mbox/ctakes-notifications/">Archive</a>
+94c94
+<                <td><a href="http://mail-archives.apache.org/mod_mbox/ctakes-commits/">Archive</a>
+---
+>                <td><a href="//mail-archives.apache.org/mod_mbox/ctakes-commits/">Archive</a>
+==== ./content/index.md
+17,18c17,18
+< 	  <a href="http://apache.org/foundation/contributing.html"><img class="support-apache" alt="Support Apache logo"
+<       src="http://apache.org/images/SupportApache-small.png"></a>
+---
+> 	  <a href="//www.apache.org/foundation/contributing.html"><img class="support-apache" alt="Support Apache logo"
+>       src="//www.apache.org/images/SupportApache-small.png"></a>
+25c25
+<       <h3>* <B>Please See new UMLS License information at the <a href="https://cwiki.apache.org/confluence/display/CTAKES/cTAKES+4.0.0.1">cTAKES Wiki</a></B></h3>
+---
+>       <h3>* <B>Please See new UMLS License information at the <a href="//cwiki.apache.org/confluence/display/CTAKES/cTAKES+4.0.0.1">cTAKES Wiki</a></B></h3>
+==== ./content/downloads.md
+9,10c9,10
+<          ( <a href="http://s.apache.org/ctakes-4.0.0-release-notes">Release Notes</a> /
+<          <a href="http://svn.apache.org/repos/asf/ctakes/tags/ctakes-4.0.0.1">SVN Tag</a> )
+---
+>          ( <a href="//s.apache.org/ctakes-4.0.0-release-notes">Release Notes</a> /
+>          <a href="//svn.apache.org/repos/asf/ctakes/tags/ctakes-4.0.0.1">SVN Tag</a> )
+22c22
+<                   <li><a href="https://www.oracle.com/java/index.html">Oracle <sup>&reg;</sup> Java</a>&trade; 1.8 or
+---
+>                   <li><a href="//www.oracle.com/java/index.html">Oracle <sup>&reg;</sup> Java</a>&trade; 1.8 or
+29,30c29,30
+<                   <li><a href="https://uts.nlm.nih.gov/license.html">UMLS<sup>&reg;</sup> license</a></li>
+<                   <li><a href="https://cwiki.apache.org/confluence/display/CTAKES/cTAKES+4.0.0.1">
+---
+>                   <li><a href="//uts.nlm.nih.gov/license.html">UMLS<sup>&reg;</sup> license</a></li>
+>                   <li><a href="//cwiki.apache.org/confluence/display/CTAKES/cTAKES+4.0.0.1">
+33c33
+<                      <a href=https://cwiki.apache.org/confluence/display/CTAKES/Piper+Files>Piper specification
+---
+>                      <a href="//cwiki.apache.org/confluence/display/CTAKES/Piper+Files">Piper specification
+41c41
+<                   <li><a href="https://subversion.apache.org/">Apache Subversion&trade; (SVN)</a> Client or equivalent
+---
+>                   <li><a href="//subversion.apache.org/">Apache Subversion&trade; (SVN)</a> Client or equivalent
+44c44
+<                   <li><a href="https://maven.apache.org/">Apache Maven&trade;</a> or equivalent
+---
+>                   <li><a href="//maven.apache.org/">Apache Maven&trade;</a> or equivalent
+47c47
+<                   <li><a href="https://www.oracle.com/java/index.html">Oracle <sup>&reg;</sup> Java</a>&trade; 1.8 or
+---
+>                   <li><a href="//www.oracle.com/java/index.html">Oracle <sup>&reg;</sup> Java</a>&trade; 1.8 or
+64c64
+<                <a href="https://cwiki.apache.org/confluence/display/CTAKES/cTAKES+4.0+User+Install+Guide">
+---
+>                <a href="//cwiki.apache.org/confluence/display/CTAKES/cTAKES+4.0+User+Install+Guide">
+79c79
+<                <a href="https://cwiki.apache.org/confluence/display/CTAKES/cTAKES+4.0+Developer+Install+Guide">
+---
+>                <a href="//cwiki.apache.org/confluence/display/CTAKES/cTAKES+4.0+Developer+Install+Guide">
+96c96
+<                <a href="https://cwiki.apache.org/confluence/display/CTAKES/cTAKES+4.0+-+Dictionary+Lookup">
+---
+>                <a href="//cwiki.apache.org/confluence/display/CTAKES/cTAKES+4.0+-+Dictionary+Lookup">
+98c98
+<             <a href="http://sourceforge.net/projects/ctakesresources/files/ctakes-resources-4.0-bin.zip/download"
+---
+>             <a href="//sourceforge.net/projects/ctakesresources/files/ctakes-resources-4.0-bin.zip/download"
+100c100
+<             <a href="http://sourceforge.net/projects/ctakesresources/files/sno_rx_16ab.zip/download"
+---
+>             <a href="//sourceforge.net/projects/ctakesresources/files/sno_rx_16ab.zip/download"
+110c110
+<                <a href="https://cwiki.apache.org/confluence/display/CTAKES/cTAKES+4.0+Developer+Install+Guide">
+---
+>                <a href="//cwiki.apache.org/confluence/display/CTAKES/cTAKES+4.0+Developer+Install+Guide">
+==== ./content/usedby.md
+22c22
+<       <p><a href="http://www.wiredinformatics.com">Wired Informatics</a></p>
+---
+>       <p><a href="//www.wiredinformatics.com">Wired Informatics</a></p>
+==== ./content/sponsors.md
+17c17
+<          <a href="http://www.apache.org/foundation/thanks.html" alt="Link to Apache Software Foundation Sponsors">
+---
+>          <a href="//www.apache.org/foundation/thanks.html" alt="Link to Apache Software Foundation Sponsors">
+22c22
+<          <a href="http://www.apache.org/foundation/thanks.html"
+---
+>          <a href="//www.apache.org/foundation/thanks.html"
+==== ./content/developerguide.md
+==== ./README.md
