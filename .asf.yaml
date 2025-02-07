@@ -7,7 +7,7 @@ pelican:
 
 staging:
   profile: beta
-  whoami: asf-site
+  whoami: main
   autostage: preview/*
 
 publish:
