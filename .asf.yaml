@@ -6,7 +6,7 @@ pelican:
   whoami: main
 
 staging:
-  profile: ~
+  profile: beta
   whoami: asf-site
   autostage: preview/*
 
