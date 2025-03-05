@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline;
+    margin: 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.landing-page {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+footer {
+    margin-top: 40px;
+    font-size: 14px;
+    color: #777;
+}
+
+.branding img {
+    width: 450px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+}

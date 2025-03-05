@@ -5,11 +5,10 @@ pelican:
   theme: theme/apache
   whoami: main
 
+
 staging:
-  profile: beta
-  whoami: main
-  autostage: preview/*
+  profile: ~
+  whoami:  asf-staging
 
 publish:
-  profile: ~
-  whoami: asf-site
+  whoami:  asf-site
