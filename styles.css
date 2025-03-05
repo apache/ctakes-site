@@ -4,6 +4,30 @@ body {
     padding: 50px;
 }
 
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-link {
+    display: inline-block;
+    background-color: #007bff; /* Button color */
+    color: white; /* Text color */
+    font-size: 1.2rem;
+    padding: 12px 20px;
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.main-link:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+
 .navbar ul {
     list-style-type: none;
     margin: 0;
@@ -29,12 +53,16 @@ body {
 .landing-page {
     max-width: 600px;
     margin: 20px auto;
+    flex: 1;
 }
 
 footer {
     margin-top: 40px;
     font-size: 14px;
     color: #777;
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 10px 0;
 }
 
 .branding img {
