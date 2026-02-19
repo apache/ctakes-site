@@ -76,3 +76,51 @@ footer {
     	padding:20px;
     }
 }
+
+/* Mobile navigation & footer improvements */
+@media screen and (max-width: 768px) {
+
+    /* Stack navbar items vertically */
+    .navbar-nav > li {
+        float: none;
+        display: block;
+    }
+
+    .navbar-nav > li > a {
+        line-height: normal;
+        padding: 10px 15px;
+        font-size: 15px;
+    }
+
+    /* Center branding if present */
+    .navbar-brand {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    /* Footer spacing tweaks */
+    footer {
+        padding: 15px 0;
+        text-align: center;
+    }
+
+    footer img {
+        max-width: 80px;
+        height: auto;
+        margin: 5px;
+    }
+}
+
+/* Extra-small devices */
+@media screen and (max-width: 480px) {
+
+    .navbar-nav > li > a {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+
+    footer img {
+        max-width: 60px;
+    }
+}
